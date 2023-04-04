@@ -11,9 +11,9 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 
 from pathlib import Path
-import os
 import dj_database_url
 import env
+import os
 
 if os.path.isfile("env.py"):
     import env
@@ -31,7 +31,7 @@ SECRET_KEY = 'django-insecure-n6t5^8yp0kn4=o#6y8go&ugc_9g2&_752r_%xa06t%xeo%s!ya
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['yo1977-django-todo-app.herokuapp.com']
 
 
 # Application definition
